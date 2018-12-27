@@ -1,0 +1,8 @@
+<ul>
+    <li *ngIf="!(people$|async)?.length">
+        Empty List
+    </li>
+    <li *ngFor="let person of people$|async">
+        {{person.name}}
+    </li>
+</ul>

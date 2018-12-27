@@ -131,5 +131,8 @@
       }
     }
   },
-  "defaultProject": "my-angular-template"
+  "defaultProject": "my-angular-template",
+  "cli": {
+    "defaultCollection": "ngrx-angular-cli-extension"
+  }
 }
